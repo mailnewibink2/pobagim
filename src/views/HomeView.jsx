@@ -62,7 +62,18 @@ const HomeView = () => {
   return (
     <div style={{ paddingBottom: '90px' }}>
       <header className="feed-header">
-        <img src="/pobagim-logo.png" alt="Pobagim" style={{ height: '140px', objectFit: 'contain' }} />
+        <h1 style={{ 
+          fontFamily: "'Fredoka', sans-serif", 
+          fontSize: '28px', 
+          fontWeight: 700,
+          background: 'linear-gradient(45deg, #FF6B6B, #E91E63, #9C27B0)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          letterSpacing: '1px',
+          margin: 0
+        }}>
+          POBAGIM
+        </h1>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
           <button 
             onClick={() => setViewMode(viewMode === 'feed' ? 'grid' : 'feed')}
@@ -128,18 +139,37 @@ const HomeView = () => {
             marginBottom: '24px',
             position: 'relative'
           }}>
-            <img 
-              src="/pobagim-logo.png" 
-              alt="Pobagim Logo"
-              style={{
-                width: '320px',
-                height: 'auto',
-                maxWidth: '100%',
-                objectFit: 'contain',
-                margin: '0 auto 8px',
-                display: 'block'
-              }}
-            />
+            <div style={{
+              width: '80px',
+              height: '80px',
+              borderRadius: '50%',
+              margin: '0 auto 12px',
+              border: '3px solid white',
+              boxShadow: 'var(--shadow-md)',
+              background: 'linear-gradient(135deg, #FF6B6B, #E91E63, #9C27B0)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: 'white',
+              fontWeight: 800,
+              fontSize: '28px',
+              fontFamily: "'Fredoka', sans-serif",
+              position: 'relative',
+              top: '-10px'
+            }}>PO</div>
+            
+            <h2 className="text-base" style={{ 
+              marginBottom: '4px', 
+              fontWeight: 700, 
+              fontFamily: "'Fredoka', sans-serif",
+              fontSize: '24px',
+              background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              letterSpacing: '0.5px'
+            }}>
+              POBAGIM
+            </h2>
             
 
             <p style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '16px', padding: '0 16px', lineHeight: 1.4 }}>

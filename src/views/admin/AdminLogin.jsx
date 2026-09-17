@@ -47,11 +47,19 @@ const AdminLogin = () => {
           margin: '0 auto 20px',
           boxShadow: 'var(--shadow-sm)'
         }}>
-          <img src="/pobagim-logo.png" alt="Pobagim Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '8px' }} />
+          <ShieldCheck size={28} color="#ffffff" />
         </div>
 
-        <h2 style={{ fontSize: '22px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px' }}>
-          Pobagim Admin
+        <h2 style={{ 
+          fontSize: '28px', 
+          fontWeight: 700, 
+          fontFamily: "'Fredoka', sans-serif",
+          background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          marginBottom: '8px' 
+        }}>
+          POBAGIM Admin
         </h2>
         <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '28px' }}>
           Masukkan Password Admin untuk mengakses CMS Feed & Manajemen Produk.

@@ -25,8 +25,20 @@ const AdminLayout = () => {
   return (
     <div className="admin-layout">
       <aside className="admin-sidebar">
-        <div className="admin-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <img src="/pobagim-logo.png" alt="Pobagim Logo" style={{ height: '32px', objectFit: 'contain' }} />
+        <div className="admin-logo" style={{ 
+          fontFamily: "'Fredoka', sans-serif", 
+          fontSize: '24px', 
+          fontWeight: 700,
+          background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          letterSpacing: '1px',
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'center',
+          padding: '16px 0'
+        }}>
+          POBAGIM
         </div>
         <nav className="admin-nav" style={{ display: 'flex', flexDirection: 'column', height: 'calc(100% - 60px)' }}>
           <div style={{ flex: 1 }}>
