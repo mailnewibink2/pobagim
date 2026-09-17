@@ -62,7 +62,7 @@ const HomeView = () => {
   return (
     <div style={{ paddingBottom: '90px' }}>
       <header className="feed-header">
-        <img src="/pobagim-logo.png" alt="Pobagim" style={{ height: '28px', objectFit: 'contain' }} />
+        <img src="/pobagim-logo.png" alt="Pobagim" style={{ height: '48px', objectFit: 'contain' }} />
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
           <button 
             onClick={() => setViewMode(viewMode === 'feed' ? 'grid' : 'feed')}
@@ -132,10 +132,10 @@ const HomeView = () => {
               src="/pobagim-logo.png" 
               alt="Pobagim Logo"
               style={{
-                width: '64px',
-                height: '64px',
+                width: '120px',
+                height: '80px',
                 objectFit: 'contain',
-                margin: '0 auto 12px',
+                margin: '0 auto 8px',
                 position: 'relative',
                 top: '-10px',
                 display: 'block'
