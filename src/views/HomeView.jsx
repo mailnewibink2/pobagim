@@ -66,7 +66,9 @@ const HomeView = () => {
           fontFamily: "'Fredoka', sans-serif", 
           fontSize: '26px', 
           fontWeight: 700,
-          color: 'var(--primary)',
+          background: 'var(--grad-primary)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
           letterSpacing: '0.5px',
           margin: 0
         }}>
@@ -144,7 +146,7 @@ const HomeView = () => {
               margin: '0 auto 12px',
               border: '3px solid white',
               boxShadow: 'var(--shadow-sm)',
-              background: 'var(--primary)',
+              background: 'var(--grad-primary)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -161,7 +163,9 @@ const HomeView = () => {
               fontWeight: 700, 
               fontFamily: "'Fredoka', sans-serif",
               fontSize: '22px',
-              color: 'var(--text-primary)',
+              background: 'var(--grad-primary)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
               letterSpacing: '0.5px'
             }}>
               POBAGIM

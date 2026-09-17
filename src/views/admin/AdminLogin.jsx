@@ -54,7 +54,9 @@ const AdminLogin = () => {
           fontSize: '26px', 
           fontWeight: 700, 
           fontFamily: "'Fredoka', sans-serif",
-          color: 'var(--primary)',
+          background: 'var(--grad-primary)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
           marginBottom: '8px' 
         }}>
           POBAGIM Admin
