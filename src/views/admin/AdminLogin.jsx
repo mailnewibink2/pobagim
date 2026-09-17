@@ -47,11 +47,11 @@ const AdminLogin = () => {
           margin: '0 auto 20px',
           boxShadow: 'var(--shadow-sm)'
         }}>
-          <ShieldCheck size={28} color="#5700ff" />
+          <img src="/pobagim-logo.png" alt="Pobagim Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '8px' }} />
         </div>
 
         <h2 style={{ fontSize: '22px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px' }}>
-          Pochinko Admin
+          Pobagim Admin
         </h2>
         <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '28px' }}>
           Masukkan Password Admin untuk mengakses CMS Feed & Manajemen Produk.

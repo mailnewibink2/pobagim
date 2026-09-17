@@ -46,7 +46,7 @@ const ProductDetailView = () => {
         className="btn-primary" 
         style={{ padding: '12px 24px', maxWidth: '260px', margin: '0 auto' }}
       >
-        Lihat Koleksi Pochinko
+        Lihat Koleksi Pobagim
       </button>
     </div>
   );
@@ -63,7 +63,7 @@ const ProductDetailView = () => {
           <ChevronLeft size={24} strokeWidth={2.5} color="var(--text-primary)" />
         </button>
         <div style={{ display: 'flex', gap: '8px' }}>
-          <button className="header-btn" title="Lihat Koleksi Pochinko" onClick={() => navigate('/')}>
+          <button className="header-btn" title="Lihat Koleksi Pobagim" onClick={() => navigate('/')}>
             <Home size={20} strokeWidth={2.5} color="var(--text-primary)" />
           </button>
           <button className="header-btn" title="Favorit" onClick={() => toggleWishlist(product)}>
@@ -183,7 +183,7 @@ const ProductDetailView = () => {
           {product.description || product.details}
         </div>
 
-        {/* Tombol Banner "Lihat Koleksi Lain Pochinko" untuk pengunjung dari WhatsApp/Link luar */}
+        {/* Tombol Banner "Lihat Koleksi Lain Pobagim" untuk pengunjung dari WhatsApp/Link luar */}
         <div 
           onClick={() => navigate('/')}
           style={{
@@ -216,7 +216,7 @@ const ProductDetailView = () => {
             </div>
             <div>
               <div style={{ fontWeight: 800, fontSize: '15px', color: 'var(--text-primary)', marginBottom: '2px' }}>
-                Lihat Koleksi Lain Pochinko
+                Lihat Koleksi Lain Pobagim
               </div>
               <div style={{ fontSize: '12.5px', color: 'var(--text-secondary)' }}>
                 Temukan pilihan tas & sepatu impor terpopuler

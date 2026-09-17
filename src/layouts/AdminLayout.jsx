@@ -25,7 +25,9 @@ const AdminLayout = () => {
   return (
     <div className="admin-layout">
       <aside className="admin-sidebar">
-        <div className="admin-logo">Pochinko</div>
+        <div className="admin-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img src="/pobagim-logo.png" alt="Pobagim Logo" style={{ height: '32px', objectFit: 'contain' }} />
+        </div>
         <nav className="admin-nav" style={{ display: 'flex', flexDirection: 'column', height: 'calc(100% - 60px)' }}>
           <div style={{ flex: 1 }}>
             <NavLink to="/admin" end className={({isActive}) => isActive ? "admin-nav-item active" : "admin-nav-item"}>

@@ -107,10 +107,10 @@ const HamburgerMenu = () => {
       </div>
       
       <div style={{ padding: '24px', overflowY: 'auto', flex: 1, fontSize: '14px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>
-        <h3 style={{ fontSize: '18px', color: 'var(--primary)', marginBottom: '16px', fontWeight: 800 }}>Tentang Pochinko</h3>
+        <h3 style={{ fontSize: '18px', color: 'var(--primary)', marginBottom: '16px', fontWeight: 800 }}>Tentang Pobagim</h3>
         
         <p style={{ marginBottom: '16px' }}>
-          Pochinko adalah platform Pre-Order (PO) yang menghadirkan produk fashion impor pilihan dari China dengan proses yang mudah, transparan, dan terpercaya.
+          Pobagim adalah platform Pre-Order (PO) yang menghadirkan produk fashion impor pilihan dari China dengan proses yang mudah, transparan, dan terpercaya.
         </p>
 
         <p style={{ marginBottom: '16px' }}>
@@ -118,7 +118,7 @@ const HamburgerMenu = () => {
         </p>
 
         <p style={{ marginBottom: '16px' }}>
-          Di Pochinko, kami percaya bahwa kualitas selalu menjadi prioritas. Karena itu, setiap produk yang tiba di gudang transit kami akan melalui proses Quality Control (QC) terlebih dahulu sebelum dikirim ke pelanggan di seluruh Indonesia.
+          Di Pobagim, kami percaya bahwa kualitas selalu menjadi prioritas. Karena itu, setiap produk yang tiba di gudang transit kami akan melalui proses Quality Control (QC) terlebih dahulu sebelum dikirim ke pelanggan di seluruh Indonesia.
         </p>
 
         <p style={{ marginBottom: '32px' }}>
@@ -235,7 +235,7 @@ const HamburgerMenu = () => {
                 </div>
                 
                 <div style={{ padding: '24px', textAlign: 'center', color: 'var(--text-secondary)', fontSize: '12px' }}>
-                  Pochinko &copy; 2026
+                  Pobagim &copy; 2026
                 </div>
               </>
             )}

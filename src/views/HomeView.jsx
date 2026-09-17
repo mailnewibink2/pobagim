@@ -62,7 +62,7 @@ const HomeView = () => {
   return (
     <div style={{ paddingBottom: '90px' }}>
       <header className="feed-header">
-        <h1>Pochinko</h1>
+        <img src="/pobagim-logo.png" alt="Pobagim" style={{ height: '28px', objectFit: 'contain' }} />
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
           <button 
             onClick={() => setViewMode(viewMode === 'feed' ? 'grid' : 'feed')}
@@ -111,7 +111,7 @@ const HomeView = () => {
             />
             <AccordionItem 
               title="Contact" 
-              content="Reach out via WhatsApp at +62 812 3456 7890 or DM us on Instagram @pochinko." 
+              content="Reach out via WhatsApp at +62 812 3456 7890 or DM us on Instagram @Pobagim." 
             />
           </div>
         </>
@@ -128,25 +128,21 @@ const HomeView = () => {
             marginBottom: '24px',
             position: 'relative'
           }}>
-            <div style={{
-              width: '64px',
-              height: '64px',
-              borderRadius: '50%',
-              margin: '0 auto 12px',
-              border: '3px solid white',
-              boxShadow: 'var(--shadow-sm)',
-              background: 'var(--grad-primary)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: 'white',
-              fontWeight: 800,
-              fontSize: '24px',
-              position: 'relative',
-              top: '-10px'
-            }}>PO</div>
+            <img 
+              src="/pobagim-logo.png" 
+              alt="Pobagim Logo"
+              style={{
+                width: '64px',
+                height: '64px',
+                objectFit: 'contain',
+                margin: '0 auto 12px',
+                position: 'relative',
+                top: '-10px',
+                display: 'block'
+              }}
+            />
             
-            <h2 className="text-base" style={{ marginBottom: '4px', fontWeight: 700 }}>Pochinko</h2>
+
             <p style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '16px', padding: '0 16px', lineHeight: 1.4 }}>
               Platform Pre-Order barang impor pilihan dari China terpercaya
             </p>

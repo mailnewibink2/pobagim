@@ -184,13 +184,13 @@ export const AppProvider = ({ children }) => {
   };
 
   const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(() => {
-    return sessionStorage.getItem('pochinko_admin_auth') === 'true';
+    return sessionStorage.getItem('Pobagim_admin_auth') === 'true';
   });
 
   const loginAdmin = (password) => {
-    const defaultPass = import.meta.env.VITE_ADMIN_PASSWORD || 'pochinko123';
+    const defaultPass = import.meta.env.VITE_ADMIN_PASSWORD || 'Pobagim123';
     if (password === defaultPass) {
-      sessionStorage.setItem('pochinko_admin_auth', 'true');
+      sessionStorage.setItem('Pobagim_admin_auth', 'true');
       setIsAdminAuthenticated(true);
       return { success: true };
     }
@@ -198,18 +198,18 @@ export const AppProvider = ({ children }) => {
   };
 
   const logoutAdmin = () => {
-    sessionStorage.removeItem('pochinko_admin_auth');
+    sessionStorage.removeItem('Pobagim_admin_auth');
     setIsAdminAuthenticated(false);
   };
 
   // Cart Management
   const [cart, setCart] = useState(() => {
-    const saved = localStorage.getItem('pochinko_cart');
+    const saved = localStorage.getItem('Pobagim_cart');
     return saved ? JSON.parse(saved) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem('pochinko_cart', JSON.stringify(cart));
+    localStorage.setItem('Pobagim_cart', JSON.stringify(cart));
   }, [cart]);
 
   const addToCart = (product, size = null, quantity = 1) => {
@@ -248,12 +248,12 @@ export const AppProvider = ({ children }) => {
 
   // Wishlist Management
   const [wishlist, setWishlist] = useState(() => {
-    const saved = localStorage.getItem('pochinko_wishlist');
+    const saved = localStorage.getItem('Pobagim_wishlist');
     return saved ? JSON.parse(saved) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem('pochinko_wishlist', JSON.stringify(wishlist));
+    localStorage.setItem('Pobagim_wishlist', JSON.stringify(wishlist));
   }, [wishlist]);
 
   const toggleWishlist = (product) => {
