@@ -51,12 +51,10 @@ const AdminLogin = () => {
         </div>
 
         <h2 style={{ 
-          fontSize: '28px', 
+          fontSize: '26px', 
           fontWeight: 700, 
           fontFamily: "'Fredoka', sans-serif",
-          background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
+          color: 'var(--primary)',
           marginBottom: '8px' 
         }}>
           POBAGIM Admin

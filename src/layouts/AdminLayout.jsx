@@ -27,12 +27,10 @@ const AdminLayout = () => {
       <aside className="admin-sidebar">
         <div className="admin-logo" style={{ 
           fontFamily: "'Fredoka', sans-serif", 
-          fontSize: '24px', 
+          fontSize: '22px', 
           fontWeight: 700,
-          background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          letterSpacing: '1px',
+          color: 'var(--primary)',
+          letterSpacing: '0.5px',
           display: 'flex', 
           alignItems: 'center', 
           justifyContent: 'center',

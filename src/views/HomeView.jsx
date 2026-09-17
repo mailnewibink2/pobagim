@@ -64,12 +64,10 @@ const HomeView = () => {
       <header className="feed-header">
         <h1 style={{ 
           fontFamily: "'Fredoka', sans-serif", 
-          fontSize: '28px', 
+          fontSize: '26px', 
           fontWeight: 700,
-          background: 'linear-gradient(45deg, #FF6B6B, #E91E63, #9C27B0)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          letterSpacing: '1px',
+          color: 'var(--primary)',
+          letterSpacing: '0.5px',
           margin: 0
         }}>
           POBAGIM
@@ -140,19 +138,19 @@ const HomeView = () => {
             position: 'relative'
           }}>
             <div style={{
-              width: '80px',
-              height: '80px',
+              width: '72px',
+              height: '72px',
               borderRadius: '50%',
               margin: '0 auto 12px',
               border: '3px solid white',
-              boxShadow: 'var(--shadow-md)',
-              background: 'linear-gradient(135deg, #FF6B6B, #E91E63, #9C27B0)',
+              boxShadow: 'var(--shadow-sm)',
+              background: 'var(--primary)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               color: 'white',
               fontWeight: 800,
-              fontSize: '28px',
+              fontSize: '26px',
               fontFamily: "'Fredoka', sans-serif",
               position: 'relative',
               top: '-10px'
@@ -162,10 +160,8 @@ const HomeView = () => {
               marginBottom: '4px', 
               fontWeight: 700, 
               fontFamily: "'Fredoka', sans-serif",
-              fontSize: '24px',
-              background: 'linear-gradient(45deg, #FF6B6B, #E91E63)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
+              fontSize: '22px',
+              color: 'var(--text-primary)',
               letterSpacing: '0.5px'
             }}>
               POBAGIM
